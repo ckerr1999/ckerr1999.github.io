@@ -1,0 +1,48 @@
+body,
+html {
+    height: 100%;
+}
+
+/* The hero image */
+
+.image {
+    /* The image used */
+     /* background-image: url("toronto.jpg"); */
+    background-image: url("toronto2.jpg");
+    /* Set a specific height */
+    height: 50%;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+ 
+.hero2 {
+    text-align: left;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+
+
+
+
+
+
+
+
